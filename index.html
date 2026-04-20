@@ -1,0 +1,163 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <!--Inicio de Navbar y menu-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+
+                <!-- Nombre tienda -->
+                <a class="navbar-brand" href="index.html">La Tienda Bike</a>
+
+                <!-- Botón hamburguesa -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menú -->
+                <div class="collapse navbar-collapse" id="menu">
+
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="carrito.html">Carrito</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+
+                    <!-- Carrito con contador -->
+                    <a href="carrito.html" class="btn btn-outline-light">
+                        Cantidad de productos🛒 <span id="contador" class="badge bg-danger">0</span>
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Fin de Navbar y menu-->
+
+    <!--Inicio de Tarjetas-->
+    <!-- ===== MAIN ===== -->
+    <br>
+    <br>
+    <br>
+    <main class="container">
+
+        <section class="row g-4">
+
+            <!-- ===== PRODUCTO 1 ===== -->
+            <article class="col-12 col-md-4">
+                <div class="card h-100">
+
+                    <img src="assets/img/casco_naranjo_mtb_p.png" class="producto-img" alt="Casco">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Casco MTB Naranjo</h5>
+
+                        <p>Protección, estilo y confianza en cada salida.</p>
+
+                        <ul>
+                            <li>🛡️ Alta protección</li>
+                            <li>🌬️ Ventilación óptima</li>
+                            <li>🎯 Ajuste cómodo</li>
+                            <li>🎨 Diseño llamativo</li>
+                        </ul>
+
+                        <p class="precio">$34.990</p>
+
+                        <button class="btn btn-bike">Agregar</button>
+                        <a href="detalle.html?producto=casco" class="btn btn-bike-sec">Ver más</a>
+                    </div>
+
+                </div>
+            </article>
+
+            <!-- ===== PRODUCTO 2 ===== -->
+            <article class="col-12 col-md-4">
+                <div class="card h-100">
+
+                    <img src="assets/img/kit_herramienta_bolso.png" class="producto-img" alt="Kit">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Kit Antipinchazo</h5>
+
+                        <p>Que nada te detenga en tu ruta.</p>
+
+                        <ul>
+                            <li>🔧 Multiherramienta</li>
+                            <li>🛠️ Desmontadores incluidos</li>
+                            <li>🩹 Parches rápidos</li>
+                            <li>🚲 Bomba portátil</li>
+                        </ul>
+
+                        <p class="precio">$19.990</p>
+
+                        <button class="btn btn-bike">Agregar</button>
+                        <a href="detalle.html?producto=kit" class="btn btn-bike-sec">Ver más</a>
+                    </div>
+
+                </div>
+            </article>
+
+            <!-- ===== PRODUCTO 3 ===== -->
+            <article class="col-12 col-md-4">
+                <div class="card h-100">
+
+                    <img src="assets/img/guantes_largos_mujer2.png" class="producto-img" alt="Guantes">
+
+                    <div class="card-body">
+                        <h5 class="card-title">Guantes Mujer</h5>
+
+                        <p>Comodidad y control en cada pedaleo.</p>
+
+                        <ul>
+                            <li>✋ Diseño ergonómico</li>
+                            <li>💨 Transpirables</li>
+                            <li>🤲 Mejor agarre</li>
+                            <li>💖 Diseño femenino</li>
+                        </ul>
+
+                        <p class="precio">$12.990</p>
+
+                        <button class="btn btn-bike">Agregar</button>
+                        <a href="detalle.html?producto=guantes" class="btn btn-bike-sec">Ver más</a>
+                    </div>
+
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+        <p>La Tienda Bike - Todos los derechos reservados</p>
+    </footer>
+
+    <!-- JS -->
+    <script src="assets/js/libreria.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

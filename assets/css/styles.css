@@ -1,0 +1,69 @@
+/* ===== BOTÓN AGREGAR (principal) ===== */
+.btn-bike {
+  background-color: #000000; /* negro */
+  color: white;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-bike:hover {
+  background-color: #e60073;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+/* ===== BOTÓN SECUNDARIO (VER MÁS) ===== */
+.btn-bike-sec {
+  background-color: #ffc107; /* amarillo */
+  color: black;
+   border: 2px solid #000000;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn-bike-sec:hover {
+   background-color: #e60073;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background-color: #000000 !important;
+}
+
+.navbar-brand {
+  color: #ffc107 !important; /* amarillo */
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  color: #e60073 !important; /* fucsia */
+}
+
+/* ===== PRECIO ===== */
+.precio {
+  color: black;
+  font-weight: bold;
+}
+
+/* ===== TARJETAS ===== */
+.card {
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  border: 2px solid #e60073;
+  transform: scale(1.02);
+}
+
+/* ===== IMÁGENES ===== */
+.producto-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
